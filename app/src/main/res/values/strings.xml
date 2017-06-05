@@ -1,0 +1,49 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">ALC Quiz App</string>
+    <string name="user_name">Please Write Your Name Here..</string>
+    <string name="btn_submit">Submit</string>
+    <string name="end_text">THE END</string>
+    <string name="btn_reset">Reset</string>
+
+    <!-- Questions -->
+    <string name="question_1">1. Who is this?</string>
+    <string name="question_2">2. Which two names are hers?</string>
+    <string name="question_3">3. This man is called: </string>
+    <string name="question_4">4. What is his name? </string>
+    <string name="question_5">5. Which two names are his? </string>
+    <string name="question_6">6. What is her role at Udacity? </string>
+
+    <!-- Text response with the EditText field -->
+    <string name="type_here">write his first-name only</string>
+
+    <!-- answers for question 2 (Katherine Kaun) -->
+    <string name="q2_a">Fujiwara</string>
+    <string name="q2_b">Kuan</string>
+    <string name="q2_c">Lyla</string>
+    <string name="q2_d">Katherine</string>
+
+    <!-- answers for question 3 (Sebastian Thrun) -->
+    <string name="q3_a">Ed Woodward </string>
+    <string name="q3_b">Elon Musk</string>
+    <string name="q3_c">Sebastian Thrun</string>
+    <string name="q3_d">Mark Zuckerberg</string>
+
+    <!-- answers for question 5 (Chimdindu Solomon)-->
+    <string name="q5_a">Olalere</string>
+    <string name="q5_b">Aneke</string>
+    <string name="q5_c">Chimdindu</string>
+    <string name="q5_d">Solomon</string>
+
+    <!-- answers for question 6 (Lyla Fujiwara) -->
+    <string name="q6_a">Curriculum Director</string>
+    <string name="q6_b">Course Instructor</string>
+    <string name="q6_c">Program Manager</string>
+    <string name="q6_d">Coffee Maker</string>
+
+    <!--Text for toast with final score text. It will be shown in the format of "Jon, your score: 6/6"
+     where Jon is the name of the user, 5 is the number of correct answers, and 6 is the number of questions
+      [CHAR LIMIT=NONE] -->
+
+    <string name="score_text"> <xliff:g id="name" example="Your Name">%s</xliff:g>, your score is:  <xliff:g id="score" example="x">%s</xliff:g>/
+        <xliff:g id="qNumber" example="6">%s</xliff:g></string>
+</resources>
